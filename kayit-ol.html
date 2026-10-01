@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr />
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+      <form action="">
+        <tr>
+          <td width="150">Kullanıcı Adı:</td>
+          <td>
+            <input type="text" name="username" placeholder="Kullanıcı Adı" />
+          </td>
+        </tr>
+        <tr>
+          <td>Eposta:</td>
+          <td><input type="email" name="email" placeholder="Eposta" /></td>
+        </tr>
+        <tr>
+          <td>Şifre:</td>
+          <td><input type="password" name="password" placeholder="Şifre" /></td>
+        </tr>
+      </form>
+    </table>
+    <h2>Kişi Bilgileriniz</h2>
+    <table>
+      <form action="">
+        <tr>
+          <td width="150">Ad:</td>
+          <td><input type="text" name="name" placeholder="Ad" /></td>
+        </tr>
+        <tr>
+          <td>Soyad:</td>
+          <td><input type="text" name="surname" placeholder="Soyad" /></td>
+        </tr>
+        <tr>
+          <td>Telefon:</td>
+          <td><input type="tel" name="phone" placeholder="Telefon" /></td>
+        </tr>
+        <tr>
+          <td>Şehir:</td>
+          <td>
+            <select name="city">
+              <option value="">Şehir Seçiniz</option>
+              <option value="istanbul">İstanbul</option>
+              <option value="ankara">Ankara</option>
+              <option value="izmir">İzmir</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Cinsiyet:</td>
+          <td>
+            <input type="radio" name="gender" value="male" /> Erkek
+            <input type="radio" name="gender" value="female" /> Kadın
+          </td>
+        </tr>
+        <tr>
+          <td>Hobiler:</td>
+          <td>
+            <input type="checkbox" name="hobbies" value="reading" /> Okuma
+            <input type="checkbox" name="hobbies" value="traveling" /> Seyahat
+            <input type="checkbox" name="hobbies" value="sports" /> Spor
+          </td>
+        </tr>
+        <tr>
+          <td>Mesaj:</td>
+          <td>
+            <textarea name="message" cols="30" rows="5"  placeholder="Mesajınızı buraya yazınız."></textarea>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
